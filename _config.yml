@@ -5,7 +5,7 @@ kramdown:
   syntax_highlighter: rouge
 highlighter: rouge
 plugins_dir: _plugins
-baseurl: /LICENSE
+baseurl: /WeatherComponent
 
 title: "WeatherComponent"
 description: "WeatherAPI wrapper"
