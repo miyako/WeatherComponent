@@ -1,0 +1,18 @@
+{
+  "name": "WeatherComponent",
+  "description": "WeatherAPI wrapper",
+  "author": [
+    "Fabrice Mainguene",
+    "Keisuke Miyako <keisuke.miyako@4D.com>"
+  ],
+  "license": "MIT",
+  "repository": "https://github.com/miyako/WeatherComponent",
+  "version": "21.0.0",
+  "tool": {
+    "platform": "macos",
+    "branch": "20.x",
+    "version": "20.7",
+    "build": "latest",
+    "arch": "arm"
+  }
+}
