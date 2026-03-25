@@ -40,6 +40,6 @@ Function _httpRequest($api : Text; $param : Text; $options : Object) : Object
 		If (($request.response#Null) && ($request.response.status=200))
 			return {success: True; response: $request.response.body}
 		Else 
-			return {success: False; response: {}; errors: $request.response.body/*.error*/; status: $request.response.status; statusText: $request.response.statusText}
+			return {success: False; response: {}; errors: $request.response.body; status: $request.response.status; statusText: $request.response.statusText}
 		End if 
 	End if 
