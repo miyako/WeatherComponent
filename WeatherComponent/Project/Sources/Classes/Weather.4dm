@@ -15,7 +15,7 @@ Function current($place : Text; $options : Object) : Object
 	// Get astronomy data (sunrise, sunset, moon phase)
 	// $date format: YYYY-MM-DD
 Function astronomy($place : Text; $date : Text; $options : Object) : Object
-	return This._httpRequest("/astronomy.json"; "q="+$place+"&dt="+$date; $options)
+	return This._httpRequest("/astronomie.json"; "q="+$place+"&dt="+$date; $options)
 	
 	
 	// Perform 4D.HTTPRequest to WeatherAPI
